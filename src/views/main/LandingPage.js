@@ -56,7 +56,6 @@ function LandingPage() {
             </Row>
             <br />
             <br />
-            
           </Container>
         </div>
         <div className="section section-dark text-center">
@@ -65,7 +64,7 @@ function LandingPage() {
             <Row>
               <Col md="8">
                 <Card className="card-profile card-plain">
-                  <div className="card-avata">
+                  <div>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
@@ -77,16 +76,18 @@ function LandingPage() {
               </Col>
               <Col md="4">
                 <Card className="card-profile card-plain">
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
-                 <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h1">Office of the Special Adviser on Education</CardTitle>
+                        <CardTitle tag="h1">
+                          Office of the Special Adviser on Education
+                        </CardTitle>
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -124,10 +125,187 @@ function LandingPage() {
                   </CardFooter>
                 </Card>
               </Col>
-             
             </Row>
           </Container>
         </div>
+        {/* Offices and Agencies */}
+        <div className="section text-center">
+          <Container>
+            <h2 className="title"><strong>Offices & Agencies</strong></h2>
+            <Row>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h2">
+                          Office Of Special Adviser On Education
+                        </CardTitle>
+                      </div>
+                    </a>
+                  </CardBody>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h2">
+                          Lagos State Scholarship Board
+                        </CardTitle>
+                      </div>
+                    </a>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h2">
+                          Agency For Mass Literacy, Adult & Non-formal Education
+                        </CardTitle>
+                        <CardBody>
+                          <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            <div className="author">
+                              <CardTitle tag="h2">
+                                Lagos State Library Board
+                              </CardTitle>
+                            </div>
+                          </a>
+                        </CardBody>
+                      </div>
+                    </a>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="3">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h1">
+                          State Tertiary Institutions
+                        </CardTitle>
+                      </div>
+                    </a>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        {/*Project Section */}
+        <div className="section text-center">
+          <Container>
+            <h2 className="title">
+              <strong>Student Improvement Programmes in Tertiary Institutions</strong>
+            </h2>
+            <Row>
+              <Col md="8">
+                <Card className="card-profile card-plain">
+                  <div>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require('assets/img/pictures/Code Lagos.png')}
+                      />
+                    </a>
+                  </div>
+                  <div className="author">
+                    <CardTitle tag="h4">
+                      {' '}
+                      An initiative to make coding curriculum accessible to
+                      every student in Lagos State.{' '}
+                    </CardTitle>
+                  </div>
+                  <div>
+                    <Col md="12">
+                      <Col>
+                        Skills include:
+                        <div>Python, Scratch, Greenfoot & Alice</div>
+                      </Col>
+                    </Col>
+                  </div>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h1"> 100,000+ </CardTitle>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Students Trained
+                    </p>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h1"> 656</CardTitle>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Public/ Private Schools Covered
+                    </p>
+                    <p className="card-description section-dark text-center">
+                      Primary & Secondary Schools
+                    </p>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+
+        <div className="section section-dark text-center">
+          <Container>
+            <Row>
+              <Col md="3">
+                <Card className="card-profile card-plain">
+                  <div>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require('assets/img/pictures/Signing.png')}
+                      />
+                    </a>
+                    <p className="card-description text-center">
+                      We signed an agreement with investors for proposed LASU
+                      <strong> 8,272-unit</strong> hostel.
+                    </p>
+                  </div>
+                </Card>
+              </Col>
+              <Col md="3">
+                <Card className="card-profile card-plain">
+                  <h2 className="title">
+                    Stakeholders meeting on LASU land encroachment.
+                  </h2>
+                  <div>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require('assets/img/pictures/School Logo 4.png')}
+                      />
+                    </a>
+                  </div>
+                </Card>
+              </Col>
+              <Col md="6">
+                <Card className="card-profile card-plain">
+                  <h2 className="title">
+                    LASU created a technology capable of monitoring Carbon
+                    Monoxide emission level in vehicles{' '}
+                  </h2>
+                  <h2 className="title">
+                    Admitted <strong>2,000</strong> more students for Stream 2
+                    admission exercise
+                  </h2>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        {/* Form */}
         <div className="section landing-section">
           <Container>
             <Row>
@@ -183,7 +361,6 @@ function LandingPage() {
 }
 
 export default LandingPage;
-
 
 /* <Row>
               <Col md="3">
@@ -256,8 +433,7 @@ export default LandingPage;
               </Col>
             </Row> */
 
-
- /* <Col md="4">
+/* <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>

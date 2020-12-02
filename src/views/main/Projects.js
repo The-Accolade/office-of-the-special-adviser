@@ -130,67 +130,7 @@ function LandingPage() {
           </Container>
         </div>
         {/* Second Slide */}
-        <div className="section text-center">
-          <Container>
-            <h2 className="title">
-              Student Improvement Programmes in Tertiary Institutions
-            </h2>
-            <Row>
-              <Col md="8">
-                <Card className="card-profile card-plain">
-                  <div>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require('assets/img/pictures/Code Lagos.png')}
-                      />
-                    </a>
-                  </div>
-                  <div className="author">
-                    <CardTitle tag="h4">
-                      {' '}
-                      An initiative to make coding curriculum accessible to
-                      every student in Lagos State.{' '}
-                    </CardTitle>
-                  </div>
-                  <div>
-                    <Col md="12">
-                      <Col>
-                        Skills include:
-                        <div>Python, Scratch, Greenfoot & Alice</div>
-                      </Col>
-                    </Col>
-                  </div>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h1"> 100,000+ </CardTitle>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      Students Trained
-                    </p>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h1"> 656</CardTitle>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      Public/ Private Schools Covered
-                    </p>
-                    <p className="card-description section-dark text-center">
-                      Primary & Secondary Schools
-                    </p>
-                  </CardBody>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+
         {/* Third Slide */}
         <div className="section text-center">
           <Container>
@@ -309,6 +249,20 @@ function LandingPage() {
                       Constructed a 500-seater CBT center at LASU in partnership
                       with Private organizations.
                     </h4>
+                  </div>
+                </Card>
+              </Col>
+            </Row>
+            <Row>
+              <Col md="12">
+                <Card className="card-profile card-plain">
+                  <div>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require('assets/img/pictures/Building Project.png')}
+                      />
+                    </a>
                   </div>
                 </Card>
               </Col>
